@@ -372,6 +372,69 @@ section{ padding: 88px 0; }
 @media (max-width: 860px){ .footer-grid{ grid-template-columns:1fr 1fr; } }
 @media (max-width: 540px){ .footer-grid{ grid-template-columns:1fr; } }
 
+/* =========================================
+   SOCIAL MEDIA ICONS
+   ========================================= */
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.social-links a {
+  width: 42px;
+  height: 42px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid rgba(244,242,234,0.25);
+  border-radius: 50%;
+
+  color: var(--paper);
+  text-decoration: none;
+
+  transition:
+    transform 160ms ease,
+    background 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease;
+}
+
+.social-links a:hover {
+  background: var(--safety);
+  border-color: var(--safety);
+  color: var(--charcoal);
+  transform: translateY(-3px);
+}
+
+.social-links svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+
+/* Mobile social icons */
+@media (max-width: 540px) {
+  .social-links {
+    gap: 10px;
+  }
+
+  .social-links a {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-links svg {
+    width: 19px;
+    height: 19px;
+  }
+}
+
 /* ==========================================================================
    Floating call / WhatsApp buttons
    ========================================================================== */
