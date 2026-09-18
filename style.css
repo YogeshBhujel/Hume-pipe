@@ -17,8 +17,6 @@
   --safety-deep:    #a97514;   /* amber hover */
   --whatsapp:       #25d366;   /* recognised utility color, functional not decorative */
   --whatsapp-deep:  #1aa653;
-  --viber:          #7360f2;   /* recognised utility color, functional not decorative */
-  --viber-deep:     #5b4bc4;
   --line:           rgba(36,34,30,0.16);
   --line-soft:      rgba(36,34,30,0.09);
   --paper:          #f4f2ea;
@@ -454,7 +452,6 @@ section{ padding: 88px 0; }
 .float-btn svg{ width:26px; height:26px; }
 .float-call{ background: var(--safety); color: var(--charcoal); }
 .float-whatsapp{ background: var(--whatsapp); }
-.float-viber{ background: var(--viber); }
 .float-label{
   font-family: var(--font-data); font-size:0.7rem; background: var(--charcoal);
   color: var(--paper); padding:3px 8px; margin-bottom:2px;
